@@ -12,16 +12,16 @@ namespace NUnitTestProject
             moodAnalyser = new MoodAnalyser("");
         }
 
-      ///// <summary>
-      ///// TC 2.1 Given Null Mood Should Return Happy  
-      ///// </summary>
-      //[Test]
-      //public void Given_Null_Mood_Return_Happy()
-      //{
-      //    string expected = "Happy";
-      //    var actual = moodAnalyser.AnalyserMood();
-      //    Assert.AreEqual(expected, actual);
-      //}
+        /// <summary>
+        /// TC 2.1 Given Null Mood Should Return Happy  
+        /// </summary>
+        [Test]
+        public void Given_Null_Mood_Return_Happy()
+        {
+            string expected = "Happy";
+            var actual = moodAnalyser.AnalyserMood();
+            Assert.AreEqual(expected, actual);
+        }
 
 
         /// <summary>

@@ -9,14 +9,13 @@ namespace MoodAnalyserException
         string message;
 
         /// <summary>
-        /// parameterised constructor with null, sad or happy messages 
+        /// parameterised constructor with null or empty message 
         /// </summary>
         /// <param name="message"></param>
         public MoodAnalyser(string message)
         {
             this.message = message;
         }
-
 
         /// <summary>
         /// Method to analyse mood with custom exception
