@@ -34,6 +34,7 @@ namespace MoodAnalyserException
                     return "HAPPY";
                 }
             }
+
             catch
             {
                 return "HAPPY";
