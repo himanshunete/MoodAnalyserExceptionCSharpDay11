@@ -19,7 +19,7 @@ namespace MoodAnalyserException
 
 
         /// <summary>
-        /// Method to analyse mood with try catch
+        /// Method to analyse mood with custom exception
         /// </summary>
         /// <returns></returns>
         public string AnalyserMood()
@@ -38,7 +38,7 @@ namespace MoodAnalyserException
 
             catch
             {
-                return null;
+                throw new MoodAnalyserCustomException(MoodAnalyserCustomException.ExceptionType.NULL_MESSAGE, "Mood should not be a null message");
             }
             
         }
