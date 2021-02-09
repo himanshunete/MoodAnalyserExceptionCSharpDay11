@@ -13,12 +13,12 @@ namespace NUnitTestProject
         }
 
         /// <summary>
-        /// TC 2.1 Given Null Mood Should Return Happy 
+        /// TC 2.1 Given Null Mood Should Return Null  
         /// </summary>
         [Test]
         public void Test1()
         {
-            string expected = "HAPPY";
+            string expected = null;
 
             var actual = moodAnalyser.AnalyserMood();
             Assert.AreEqual(expected, actual);
