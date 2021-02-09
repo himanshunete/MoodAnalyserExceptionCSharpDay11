@@ -17,6 +17,7 @@ namespace MoodAnalyserException
             this.message = message;
         }
 
+
         /// <summary>
         /// Method to analyse mood with try catch
         /// </summary>
